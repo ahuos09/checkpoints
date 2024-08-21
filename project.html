@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="" />
+		<meta name="viewport" content="width=, initial-scale=" />
         <title>My Portfolio</title>
+        <link rel="stylesheet" href="./stylesheet.css" />
     </head>
     <body>
         <header>
             <nav>
+                <img src="./images/logo.png" alt="logo">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -15,15 +20,16 @@
                 </ul>
             </nav>
         </header>
+        
         <section id="home">
-            <h1>welcome to my Portfolio</h1>
-            <p>here you can find information about me and my creations</p>
-
+            <div class="box">
+                <h1>welcome to my Portfolio</h1>
+                <p>here you can find information about me and my creations</p>
+            </div>
         </section>
-        <section id="work">
-            <h2>About me</h2> 
+        <section class="box1">
+            <h2 >About me</h2> 
             <p> i am an energy engineering student who is passionate about discovering diffrent datascience fields and especially web development</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/LmVw3u3SxoA?si=dbmdufLt7UM2HMmy" title="my favorite song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
         <section id="work">
             <h2>My Work</h2>
@@ -36,7 +42,7 @@
 
         </section>
         <section id="Resume">
-            <h2>Resume</h2>
+            <h2 id="blue-bordered">Resume</h2>
             <table>
                 <tr>
                     <th>skills</th>
@@ -62,7 +68,7 @@
 
         </section>
         <section id="contact">
-            <h2>give us some information</h2>
+            <h2 id="blue-bordered">give us some information</h2>
             <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="first name" placeholder="Type your name here" ><br>
@@ -77,6 +83,7 @@
         <footer>
             <p>&copy; 2024 My Portfolio. All rights reserved.</p>
         </footer>
+
     </body>
 
 </html>

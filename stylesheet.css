@@ -1,0 +1,68 @@
+h1{
+    color: rgb(237, 49, 215);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    border-color: goldenrod;
+    text-align: center;
+}
+p{
+    color: black;
+    font: bold;
+    font-size: medium;
+    text-align: justify;
+}
+.box p{
+    color: darkmagenta;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+section > h2 {
+    font-weight: bold;
+    background-color: rgb(237, 49, 215);
+    color: #fff;
+    padding: .5em;
+}
+.box1 p{
+    color: hotpink;
+}
+.box1 h2{
+    text-align: center;
+}
+nav a:hover{
+    color: beige;
+}
+#home{ margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    background-color: rgb(249, 197, 223);
+    border-radius: 5%;
+
+}
+nav {background-color: rgb(211, 157, 211);
+    display: flex;
+    height: 150px;
+    width: 100%; 
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    
+
+}
+ul{
+   
+    list-style:none;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    margin: 5px;
+    
+
+}
+nav img {
+    width: 150px;
+    height:150px;
+}
