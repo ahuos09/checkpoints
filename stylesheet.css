@@ -89,21 +89,25 @@ header div p{
     background-image: url('./images/72235064_9704229.jpg');
     height: 300px;
     width: 100%;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+
 }
 .imgHeader section p {
     text-align: center;
     margin-right: 100px;
-
-    color:rgb(211, 79, 174)
+    font-size: xx-large;
+    color:rgb(118, 63, 207) ;
+    
 }
 .imgHeader section button{
-    text-align: center;
+    text-align: crgb(118, 63, 207)enter;
     margin-right: 100px;
     background-color:rgb(224, 182, 212) ;
     width: 150px;    
     height: 50px;   
     padding: 10px 20px; 
-    border: 2px solid darkmagenta; 
+    border: 2px solid rgb(118, 63, 207); 
     border-radius: 5px; 
     background-color: #f1a5dc;  
     font-size: 16px; 
@@ -114,9 +118,15 @@ header div p{
 }  
 .imgHeader section button a{
     text-decoration: none;
-    color: darkmagenta;
+    color: rgb(118, 63, 207);
 }
 .imgHeader section{
     padding-top: 30px;
 }
+body {
+    background-image: url('./images/pastel-pink-vignette-concrete-textured-background.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+  }
 
