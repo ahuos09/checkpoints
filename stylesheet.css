@@ -29,8 +29,11 @@ section > h2 {
 .box1 h2{
     text-align: center;
 }
+nav a{
+    color:rgb(94, 14, 94)
+}
 nav a:hover{
-    color: beige;
+    color:deeppink;
 }
 #home{ margin-left: 25px;
     margin-right: 25px;
@@ -39,7 +42,7 @@ nav a:hover{
     border-radius: 5%;
 
 }
-nav {background-color: rgb(211, 157, 211);
+nav {background-color: rgb(241, 216, 230);
     display: flex;
     height: 150px;
     width: 100%; 
@@ -66,3 +69,54 @@ nav img {
     width: 150px;
     height:150px;
 }
+nav div p {
+    text-align: center;
+    color: rgb(235, 82, 163);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+
+}
+header div{
+   text-align: center;
+}
+header div p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 150%;
+}
+.imgHeader{
+    background-image: url('./images/72235064_9704229.jpg');
+    height: 300px;
+    width: 100%;
+}
+.imgHeader section p {
+    text-align: center;
+    margin-right: 100px;
+
+    color:rgb(211, 79, 174)
+}
+.imgHeader section button{
+    text-align: center;
+    margin-right: 100px;
+    background-color:rgb(224, 182, 212) ;
+    width: 150px;    
+    height: 50px;   
+    padding: 10px 20px; 
+    border: 2px solid darkmagenta; 
+    border-radius: 5px; 
+    background-color: #f1a5dc;  
+    font-size: 16px; 
+    text-decoration: none;
+    
+    
+      
+}  
+.imgHeader section button a{
+    text-decoration: none;
+    color: darkmagenta;
+}
+.imgHeader section{
+    padding-top: 30px;
+}
+
