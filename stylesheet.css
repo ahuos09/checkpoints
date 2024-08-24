@@ -1,79 +1,44 @@
-h1{
-    color: rgb(237, 49, 215);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 150%;
-    border-color: goldenrod;
-    text-align: center;
-}
-p{
-    color: black;
-    font: bold;
-    font-size: medium;
-    text-align: justify;
-}
-.box p{
-    color: darkmagenta;
-    text-align: center;
-    font-size: 100%;
-    font-weight: bold;
-}
-section > h2 {
-    font-weight: bold;
-    background-color: rgb(237, 49, 215);
-    color: #fff;
-    padding: .5em;
-}
-.box1 p{
-    color: hotpink;
-}
-.box1 h2{
-    text-align: center;
-}
-nav a{
-    color:rgb(94, 14, 94)
-}
-nav a:hover{
-    color:deeppink;
-}
-#home{ margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-    background-color: rgb(249, 197, 223);
-    border-radius: 5%;
+@import url('https://fonts.google.com/specimen/Roboto?query=roboto');
 
-}
 nav {background-color: rgb(241, 216, 230);
     display: flex;
     height: 150px;
     width: 100%; 
     justify-content: space-between;
 }
-nav ul{
-    display: flex;
-    text-decoration: none;
-    
-
+nav a:hover{
+    color:rgb(235, 229, 232);
+    background-color: rgb(235, 82, 163);
 }
-ul{
-   
-    list-style:none;
-    
+nav ul{
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+
 }
 nav ul li a {
     text-decoration: none;
-    margin: 5px;
-    
-
+    margin: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(235, 82, 163);
 }
 nav img {
     width: 150px;
     height:150px;
 }
+nav div{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 nav div p {
     text-align: center;
     color: rgb(235, 82, 163);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bolder;
+    font-size: 50px;
+    margin: 0%;
+
+}
+.title{ font-size: 40px;
 
 }
 header div{
@@ -91,14 +56,12 @@ header div p{
     width: 100%;
     background-size: cover; 
     background-repeat: no-repeat; 
-
 }
 .imgHeader section p {
     text-align: center;
     margin-right: 100px;
     font-size: xx-large;
-    color:rgb(118, 63, 207) ;
-    
+    color:#af1685 ;  
 }
 .imgHeader section button{
     text-align: crgb(118, 63, 207)enter;
@@ -107,26 +70,96 @@ header div p{
     width: 150px;    
     height: 50px;   
     padding: 10px 20px; 
-    border: 2px solid rgb(118, 63, 207); 
+    border: 2px solid #af1685; 
     border-radius: 5px; 
     background-color: #f1a5dc;  
     font-size: 16px; 
-    text-decoration: none;
-    
-    
-      
+    text-decoration: none;    
 }  
 .imgHeader section button a{
     text-decoration: none;
-    color: rgb(118, 63, 207);
+    color: #af1685;
 }
 .imgHeader section{
     padding-top: 30px;
 }
-body {
+body {font-family: 'Roboto', sans-serif;
     background-image: url('./images/pastel-pink-vignette-concrete-textured-background.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center center; 
   }
+  #home {
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px;
+    background-color: #f8f8f8; 
+  }
+  
+  .picture {
+    text-align: center; 
+    max-width: 30%; 
+  }
+  
+  .picture img {
+    width: 100%; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+ }
+
+  .picture p a {
+    margin-top: 10px;
+    font-size: 1.2em; 
+    color:#d66480; 
+    font-weight: bold; 
+    text-decoration: none;
+  }
+  .picture p a:hover{
+    color: #f8f8f8;
+    background-color:#d66480 ;
+  }
+footer {
+    background-color:rgb(241, 216, 230); 
+    color: rgb(235, 82, 163); 
+    text-align: center; 
+    padding: 20px; 
+    font-size: 1em; 
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+#end .logos {
+    margin: 20px 0; 
+}
+
+#end .logos p {
+    margin-bottom: 10px; 
+    font-weight: bold;
+}
+#end .logos img {
+    width: 30px; 
+    margin: 0 10px; /
+    vertical-align: middle; 
+    transition: transform 0.3s ease; 
+}
+
+#end .logos img:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+footer a {
+    color: #fff; /* Ensure any links in the footer are also white */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+  
+  
+
+  
 
